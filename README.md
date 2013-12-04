@@ -17,9 +17,9 @@ Create a strong, nonatomic property of DMShakyView:
 
 And just put these 3 lines of code in viewDidAppear in your rootVC (MUST be viewDidAppear, not viewDidLoad):
 `````objective-c
-if (_shakyView == nil)
-        _shakyView = [[DMShakyView alloc] init];
-    [_shakyView enableShakyShaky];
+   if (_shakyView == nil)
+       _shakyView = [[DMShakyView alloc] init];
+   [_shakyView enableShakyShaky];
 `````  
   
 
