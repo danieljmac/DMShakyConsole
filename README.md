@@ -11,12 +11,15 @@ Shake your iPhone to present a view controller with a built in debug console.
 Really simple to use:
 
 Create a strong, nonatomic property of DMShakyView: 
+`````objective-c
 @property (strong, nonatomic) DMShakyView *shakyView;
+`````
 
-And just put these 3 lines of code in viewDidAppear in your rootVC:
+And just put these 3 lines of code in viewDidAppear in your rootVC (MUST be viewDidAppear, not viewDidLoad):
+`````objective-c
 if (_shakyView == nil)
         _shakyView = [[DMShakyView alloc] init];
     [_shakyView enableShakyShaky];
-    
+`````  
   
 Don't forget to remove this control before you submit to apple, I can not guarantee Apple will approve of you using ASL in production apps.
