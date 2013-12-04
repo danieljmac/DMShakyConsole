@@ -22,4 +22,6 @@ if (_shakyView == nil)
     [_shakyView enableShakyShaky];
 `````  
   
+
+Although it is probably unnecessary because it's already so simple, I've included a little demo app anyways, just to make it a little easier to use & install.
 Don't forget to remove this control before you submit to apple, I can not guarantee Apple will approve of you using ASL in production apps.
