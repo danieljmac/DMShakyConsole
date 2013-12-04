@@ -1,7 +1,7 @@
 DMShakyConsole
 ==============
 
-DMShakeyConsole is a simple control to help you catch those pesky bugs and problems while you are testing your app on the go.  For those times when you're app or server does something random and strange, but you weren't wired in with your debug console to check all your NSLogs & what actually happened.
+DMShakeyConsole is a simple control to help you catch those pesky bugs and problems while you are testing your app on the go.  For those times when you're app or server does something random and strange, but you weren't wired in with your debug console to check all your NSLogs & see what actually happened.
 
 Shake your iPhone to present a view controller with a built in debug console.  Simple, but hopefully will save you some hassle debugging and finding issues.
 
